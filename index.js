@@ -7,8 +7,9 @@ function clickLike1(){
 }
 btnLike1.addEventListener("click",clickLike1)
 
-function clickLike1(){
+function clickLike2(){
   let totalLikes = parseInt(countLike2.value) + 1
-  countLike1.textContent = totalLikes.toString()
+  countLike2.textContent = totalLikes.toString()
 }
-btnLik2.addEventListener("click",clickLike1)
+
+btnLik2.addEventListener("click",clickLike2)
