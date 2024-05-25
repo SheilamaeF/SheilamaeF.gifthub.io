@@ -6,3 +6,4 @@ function clickLike1(){
   countLike1.textContent = totalLikes.toString()
 }
 btnLike1.addEventListener("click",clickLike1)
+btnLik2.addEventListener("click",clickLike1)
